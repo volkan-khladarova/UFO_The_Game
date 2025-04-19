@@ -8,4 +8,5 @@
 
 void greet();
 void display_misses(int misses);
+void end_game();
 #endif // UFO_FUNCTIONS_H
