@@ -24,7 +24,7 @@ int main() {
     char letter;
 
     // Game loop continues until the word is guessed or max misses reached
-    while (misses < 6 && guess == false) {
+    while (answer != codeword && misses < 7) {
 
         // Show the current UFO (based on number of misses)
         display_misses(misses);
