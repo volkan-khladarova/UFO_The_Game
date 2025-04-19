@@ -39,6 +39,14 @@ int main() {
         // Reset the guess flag for this turn
         guess = false;
 
+        // Check if the guessed letter is in the codeword
+        for (int i = 0; i < codeword.length(); i++) {
+            if (letter == codeword[i]) {
+                // If it's a match, reveal the letter in the answer
+                guess = true;
+                answer[i] = letter;
+            }
+        }
 
         misses++;
     }
