@@ -47,14 +47,14 @@ int main() {
                 answer[i] = letter;
             }
 
-            // If the guess was correct
-            if (guess) {
-                std::cout << "\nCorrect! You're closer to cracking the codeword.\n";
-            } else {
-                // If the guess was wrong, update incorrect guesses and misses
-                std::cout << "\nIncorrect! The tractor beam pulls the person in further.\n";
-                incorrect.push_back(letter);
-                misses++;
+        // If the guess was correct
+        if (guess) {
+          std::cout << "\nCorrect! You're closer to cracking the codeword.\n";
+        } else {
+         // If the guess was wrong, update incorrect guesses and misses
+            std::cout << "\nIncorrect! The tractor beam pulls the person in further.\n";
+            incorrect.push_back(letter);
+            misses++;
             }
         }
 
