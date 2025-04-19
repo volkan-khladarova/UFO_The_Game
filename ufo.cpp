@@ -26,6 +26,12 @@ int main() {
     // Game loop continues until the word is guessed or max misses reached
     while (misses < 6 && guess == false) {
 
+        // Show the current UFO (based on number of misses)
+        display_misses(misses);
+
+        // Show incorrect guesses and current progress of the word
+
+        misses++;
     }
 
     return 0;
