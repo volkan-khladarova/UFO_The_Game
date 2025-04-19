@@ -9,6 +9,18 @@ void greet() {
     std::cout << "Instructions: save your friend from alien abduction by guessing the letters in the codeword.\n\n";
 }
 
+void end_game() {
+  if (answer == codeword) {
+
+    std::cout << "Hooray! You saved your friend and earned a medal of honor!\n";
+
+  } else {
+
+    std::cout << "Oh no! The UFO just flew away with another person!\n";
+
+  }
+}
+
 // Display ASCII
 void display_misses(int misses) {
 
