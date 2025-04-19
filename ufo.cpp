@@ -30,6 +30,7 @@ int main() {
         display_misses(misses);
 
         // Show incorrect guesses and current progress of the word
+        display_status(incorrect, answer);
 
         misses++;
     }
