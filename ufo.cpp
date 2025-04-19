@@ -58,6 +58,8 @@ int main() {
             }
         }
 
+        // When the loop ends, show the end result of the game
+        end_game(answer, codeword);
 
     }
 
