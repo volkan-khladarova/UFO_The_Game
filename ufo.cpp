@@ -15,7 +15,7 @@ int main() {
     int misses = 0;
 
     // Vector to keep track of incorrect guessed letters
-    std::vector<char> incorrect_guesses;
+    std::vector<char> incorrect;
 
     //Boolean to check if the current guess was correct
     bool guess = false;
