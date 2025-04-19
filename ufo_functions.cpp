@@ -7,6 +7,7 @@ void greet() {
     std::cout << "UFO: The Game\n";
     std::cout << "=============\n";
     std::cout << "Instructions: save your friend from alien abduction by guessing the letters in the codeword.\n\n";
+    // Explains the goal: guess the codeword to prevent alien abduction!
 }
 
 // Function to display the end result of the game
