@@ -23,7 +23,7 @@ void end_game(std::string answer, std::string codeword) {
   }
 }
 
-// Display ASCII
+// Function to display the UFO and abductee status based on number of misses
 void display_misses(int misses) {
 
   if (misses == 0 || misses == 1) {
