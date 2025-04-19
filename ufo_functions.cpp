@@ -9,7 +9,9 @@ void greet() {
     std::cout << "Instructions: save your friend from alien abduction by guessing the letters in the codeword.\n\n";
 }
 
-void end_game() {
+// Function to display the end result of the game
+void end_game(std::string answer, std::string codeword) {
+  // Function to display the end result of the game
   if (answer == codeword) {
 
     std::cout << "Hooray! You saved your friend and earned a medal of honor!\n";
