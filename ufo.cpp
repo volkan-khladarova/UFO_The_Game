@@ -23,5 +23,10 @@ int main() {
     // Variable to store the user's letter input
     char letter;
 
+    // Game loop continues until the word is guessed or max misses reached
+    while (misses < 6 && guess == false) {
+
+    }
+
     return 0;
 }
