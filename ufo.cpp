@@ -46,6 +46,7 @@ int main() {
                 guess = true;
                 answer[i] = letter;
             }
+        }
 
         // If the guess was correct
         if (guess) {
