@@ -20,5 +20,8 @@ int main() {
     //Boolean to check if the current guess was correct
     bool guess = false;
 
+    // Variable to store the user's letter input
+    char letter;
+
     return 0;
 }
