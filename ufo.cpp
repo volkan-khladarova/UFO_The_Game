@@ -9,7 +9,7 @@ int main() {
     std::string codeword = "extraterrestrial";
 
     // The current state of the guessed word (initially all underscores)
-    std::string answer = "__________";
+    std::string answer = "________________";
 
     // Number of incorrect guesses
     int misses = 0;
