@@ -5,4 +5,7 @@
 #ifndef UFO_FUNCTIONS_H
 #define UFO_FUNCTIONS_H
 
-#endif //UFO_FUNCTIONS_H
+
+void greet();
+void display_misses(int misses);
+#endif // UFO_FUNCTIONS_H
