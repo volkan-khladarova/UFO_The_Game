@@ -2,7 +2,7 @@
 #include<vector>
 
 // Greeting message for player
-void greeting() {
+void greet() {
     std::cout << "=============\n";
     std::cout << "UFO: The Game\n";
     std::cout << "=============\n";
