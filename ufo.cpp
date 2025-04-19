@@ -6,7 +6,7 @@ int main() {
     greet();
 
     // The secret word the player needs to guess
-    std::string codeword = "codecademy";
+    std::string codeword = "extraterrestrial";
 
     // The current state of the guessed word (initially all underscores)
     std::string answer = "__________";
