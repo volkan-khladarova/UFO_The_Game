@@ -36,6 +36,10 @@ int main() {
         std::cout << "\n\nPlease enter your guess: ";
         std::cin >> letter;
 
+        // Reset the guess flag for this turn
+        guess = false;
+
+
         misses++;
     }
 
