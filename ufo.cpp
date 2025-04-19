@@ -32,6 +32,10 @@ int main() {
         // Show incorrect guesses and current progress of the word
         display_status(incorrect, answer);
 
+        // Ask the player to enter a letter
+        std::cout << "\n\nPlease enter your guess: ";
+        std::cin >> letter;
+
         misses++;
     }
 
