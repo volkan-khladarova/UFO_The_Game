@@ -1,7 +1,7 @@
 #include<iostream>
 #include<vector>
 
-// Greeting message for player
+// Function to greet the player and explain the game
 void greet() {
     std::cout << "=============\n";
     std::cout << "UFO: The Game\n";
