@@ -17,7 +17,7 @@ void end_game(std::string answer, std::string codeword) {
     std::cout << "Hooray! You saved your friend and earned a medal of honor!\n";
 
   } else {
-
+    // If the guess was incorrect and the player failed
     std::cout << "Oh no! The UFO just flew away with another person!\n";
 
   }
