@@ -24,6 +24,22 @@ void end_game(std::string answer, std::string codeword) {
   }
 }
 
+// Function to show the incorrect guesses and the current progress
+void display_status(std::vector<char> incorrect, std::string answer) {
+
+  std::cout << "\nIncorrect Guesses:\n";
+
+  for (int i = 0; i < incorrect.size(); i++) {
+    std::cout << incorrect[i] << ' ';
+    // Print each incorrect letter guessed by the player
+  }
+  std::cout << "\nCodeword:\n";
+
+  for (int i = 0; i < answer.length(); i++) {
+    std::cout << answer[i] << ' ';
+    // Print the current state of the word being guessed
+  }
+}
 // Function to display the UFO and abductee status based on number of misses
 void display_misses(int misses) {
 
